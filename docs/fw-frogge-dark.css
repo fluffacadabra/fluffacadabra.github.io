@@ -26,7 +26,7 @@
 
 
 /* global */
-p, ul, ol, div, td, span, table, body, [title][tabindex]:focus::before {font-family: Arial, helvetica, sans-serif;font-size: 11.5px;color: #c7c7c7;/* font-weight:  normal; */}
+p, ul, ol, div, td, span, table, body, [title][tabindex]:focus::before {font-family: Arial, helvetica, sans-serif;font-size: 12px;color: #c7c7c7;/* font-weight:  normal; */}
 text { fill: #c6c6c6; }
 p { margin: 0px; padding: 0px; }
 
@@ -42,15 +42,15 @@ td 					{ padding:0px; margin:0px; }
 /* body, textarea 		{ scrollbar-base-color:#BBBBBB; scrollbar-3dlight-color:#FFFFFF; scrollbar-arrow-color:#007F9F; scrollbar-darkshadow-color:#999999; scrollbar-face-color:#D5D5D5; scrollbar-highlight-color:#FFFFFF; scrollbar-shadow-color:#636363; scrollbar-track-color:#F5F5F5; } */
 
 /* links */
-a:link {color: #ec4444;text-decoration: none;font-weight: normal;}
-a:visited {color: #ec4444;text-decoration: none;font-weight: normal;}
-a:active { color: #4e58cb; font-weight: normal; }
+a:link {color: #ff4c4c;text-decoration: none;font-weight: normal;}
+a:visited {color: #ff4c4c;text-decoration: none;font-weight: normal;}
+a:active { color: #cb4e4e; font-weight: normal; }
 a:hover { color: #ff3b3b; text-decoration: underline; font-weight: normal; }
 
 /* fonts */
 h1 { font-size: 12px; font-weight: bold; margin-bottom: 0px;}
 .medium { font-size: 11px; }
-.small {f;ont-size: 10px;}
+.small { font-size: 10px; }
 
 /* colors */
 .fontcolor { color: #939393; }
@@ -80,10 +80,10 @@ h1 { font-size: 12px; font-weight: bold; margin-bottom: 0px;}
 .input { font-size: 11px; background-color: #c1c1c1; height: 17px; border: 1px solid #000; }
 input[type="text"], input[type="number"], input[type="password"] {background-color: #e3e3e3;}
 .submitsagen {font-size: 11px;font-weight: bold;color: black;padding-bottom: 2px;width: 80px;height: 17px;margin-left: 2px;margin-right: 2px;border: thin #777777 solid;border-width: 1px;background-color: #d9d8d8;}
-.submitschreien {font-size: 11px;font-weight: bold;color: #002789;padding-bottom: 2px;width: 87px;height: 17px;margin-right: 2px;border: thin #777777 solid;border-width: 1px;background-color: #d9d8d8;}
+.submitschreien {font-size: 11px;font-weight: bold;color: #0333ae;padding-bottom: 2px;width: 87px;height: 17px;margin-right: 2px;border: thin #777777 solid;border-width: 1px;background-color: #d9d8d8;}
 .submitclan {font-size: 11px;font-weight: bold;color: #ff3e3e;padding-bottom: 2px;width: 80px;height: 17px;margin-right: 2px;border: thin #777777 solid;border-width: 1px;background-color: #d9d8d8;}
 .submitworldsay { font-size: 11px; font-weight: bold; color: #000000; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-color: #d9d8d8; }
-.submitgroup {font-size: 11px;font-weight: bold;color: #9f5632;padding-bottom: 2px;width: 80px;height: 17px;margin-right: 2px;border: thin #777777 solid;border-width: 1px;background-color: #d9d8d8;}
+.submitgroup {font-size: 11px;font-weight: bold;color: #cd6836;padding-bottom: 2px;width: 80px;height: 17px;margin-right: 2px;border: thin #777777 solid;border-width: 1px;background-color: #d9d8d8;}
 .submitwhisper {font-size: 11px;font-weight: bold;color: #73a573;padding-bottom: 2px;width: 88px;height: 17px;margin-right: 2px;border: thin #4d4d4d solid;border-width: 1px;background-color: #2B2A2A;}  /* Whisper is darker */
 .submitglobalchat { font-size: 11px; font-weight: bold; color: #952cf9; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-color: #d9d8d8; }
 .submitmod { font-size: 11px; font-weight: bold; color: black; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-color: #d9d8d8; }
@@ -99,7 +99,7 @@ select { font-size: 11px; background-color: lightgrey; }
 /* text classes */
 .chattext { color: #e5e5e5; font-size: 12px; }
 .chattextscream {color: #6a9dff;font-size: 12px;}
-.chattextclan { color: #ff6f6f; font-size: 12px;}
+.chattextclan { color: #f55858; font-size: 12px;}
 .chattextinfo {color: #937606;font-size: 12px;}
 .chattextworldsay { color: #000000; background-color: #282828; font-size: 12px; }
 .chattextwhisper {color: lightgreen;font-size: 12px;}
@@ -111,7 +111,7 @@ select { font-size: 11px; background-color: lightgrey; }
 .healthcritical { color: #ff6f6f; }
 .chatpics { display: none; }
 .chattext table td { border: 1px solid #888; background-color: #3d3d3d; }
-p.worldsay tr[bgcolor="#99EE99"] td { width: 100%; background-color: #43a243; color: black; }
+p.worldsay tr[bgcolor="#99EE99"] td { width: 100%; background-color: #45c945; color: black; }
 p.worldsay tr[bgcolor="#99EE99"] a { color: #033875; }
 p.worldsay tr[bgcolor="#C1CEF9"] td {width: 100%;color: black;background-color: #5272d0;}
 p.worldsay tr[bgcolor="#C1CEF9"] a {color: #8f1b1b;}
@@ -186,8 +186,8 @@ p.positiontext { background-color: #3d3d3d; border: 1px solid #555555; color: li
 .stdjpg { background-image: url(https://welt1.freewar.de/freewar/images/map/std4.jpg) !important; }
 
 /* main module */
-p.personlistcaption {border: 1px solid #414141;font-weight: bold;padding: 2px;padding-left: 5px;background-color: #5d77a3;color: #000000;/* background-image: url(https://welt1.freewar.de/freewar/images/buttonblue_bg.jpg); */}
-p.itemlistcaption {border: 1px solid #414141;font-weight: bold;padding: 2px;padding-left: 5px;background-color: #b39260;color: #000000;/* background-image: url(https://welt1.freewar.de/freewar/images/buttonorange_bg.jpg); */}
+p.personlistcaption {border: 1px solid #414141;font-weight: bold;padding: 2px;padding-left: 5px;background-color: #5f85c4;color: #000000;/* background-image: url(https://welt1.freewar.de/freewar/images/buttonblue_bg.jpg); */}
+p.itemlistcaption {border: 1px solid #414141;font-weight: bold;padding: 2px;padding-left: 5px;background-color: #d1a460;color: #000000;/* background-image: url(https://welt1.freewar.de/freewar/images/buttonorange_bg.jpg); */}
 #plantrow {border: 1px solid #555555;font-weight: bold;padding: 2px;padding-left: 5px;background-color: #73bb72;/* background-image: url(https://welt1.freewar.de/freewar/images/buttongreen_bg.jpg); */}
 
 /* misc */
@@ -225,7 +225,7 @@ td.c1 {text-align: left;}
 	a.nocango:hover 	{ background: url(./img/nogo.gif) top left no-repeat; cursor: default;}
 	.abilitymenu 		{ border:0px; border-collapse: collapse; }
 	.abilitymenu tr 	{ padding: 2px; padding-left: 5px; background-color: #ECE9E6; }
-	.abilitymenu td 	{ text-align: right; padding: 2px; padding-left: 5px; border: 1px solid #D6CBC2; }
+	.abilitymenu td 	{ text-align: right; padding: 2px; padding-left: 5px; border: 1px solid #D6CBC2; background: #282828;}
 	td.c1 			{ text-align: left;}
 	.bold td		{ font-weight:bold;}
 	.friendlist { border-collapse: collapse; }
@@ -285,7 +285,7 @@ td.c1 {text-align: left;}
 	p.worldsay table tr[bgcolor="#F8A370"] td 	{ display:none; }*/
 
 /* Inventar-Platzschaffende Änderungen */
-	p.listcaption + p.listrow .small b + b 		{ margin: 0 0 0 -6px; }
+	p.listcaption + p.listrow .small b + b 		{ margin: 0 0 0 -6px; font-size: 10; }
 	p.listcaption + p.listrow .small b + b:before 	{content: " | ";background: #020202;}
 
 	p.listcaption + p + p + p + p + p + p + p.listrow .valueincreased, p.listcaption + p + p + p + p + p + p + p + p.listrow .valueincreased, p.listcaption + p + p + p + p + p + p + p + p + p.listrow .valueincreased { display:inline-block; width:150px; }
@@ -341,7 +341,7 @@ td.c1 {text-align: left;}
 
 /*gigantische */
 img[src$="spindel.gif"] {
-background: rgba(255, 113, 113, 0.71) !important;
+background: rgba(255, 113, 113, 0.83) !important;
 border: 2px inset rgb(53, 53, 53)!important;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
@@ -349,7 +349,7 @@ border-bottom-right-radius: 20px;
 
 /*klein */
 img[src$="spindel2.gif"] {
-background: rgba(127, 253, 103, 0.57) !important;
+background: rgba(41, 255, 0, 0.68) !important;
 border: 2px inset rgb(53, 53, 53)!important;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
@@ -357,7 +357,7 @@ border-bottom-right-radius: 20px;
 
 /*normale */
 img[src$="spindel3.gif"] {
-background: rgba(255, 252, 89, 0.76)!important;
+background: rgba(255, 252, 89, 0.83)!important;
 border: 2px inset rgb(53, 53, 53)!important;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;}
