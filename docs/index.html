@@ -99,6 +99,42 @@
             text-align: center;
         }
         
+        /* Reviews Section */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .review-card {
+            background-color: var(--background-light);
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .review-stars {
+            color: #FFD700;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .review-text {
+            color: var(--font-medium);
+            font-size: 1.05rem;
+            font-style: italic;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .review-author {
+            color: var(--font-medium);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
         .about-text {
             font-size: 1.1rem;
             margin-bottom: 30px;
@@ -255,7 +291,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
         
-        .section, .feature-card, .faq-item, .download-card {
+        .section, .feature-card, .faq-item, .download-card, .review-card {
             animation: fadeIn 0.6s ease-out;
         }
     </style>
@@ -310,6 +346,38 @@
                     <div class="feature-icon">💎</div>
                     <h3 class="feature-title">String Tracking</h3>
                     <p class="feature-description">Monitor your string sets, gauge information, and installation dates to keep your guitars in top condition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Users Will Probably Be Saying</h2>
+                <p class="section-subtitle">Enjoy these placeholders while we are flibbertigibbeting</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"I can't wait for the finished product. It's gonna change my life!"</p>
+                    <p class="review-author">- Guitar Enthusiast</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"I have told my husband about it and he LOVES it!"</p>
+                    <p class="review-author">- Happy Alpha Male</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Finally, a way to organize my collection that actually makes sense."</p>
+                    <p class="review-author">- Professional Suno Enjoyer</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"This app is exactly what I've been looking for. The tuning management is a game-changer."</p>
+                    <p class="review-author">- Session Triangle Player</p>
                 </div>
             </div>
         </div>
