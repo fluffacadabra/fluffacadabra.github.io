@@ -84,7 +84,7 @@ input[type="text"], input[type="number"], input[type="password"] {background-col
 .submitclan {font-size: 11px;font-weight: bold;color: #ff3e3e;padding-bottom: 2px;width: 80px;height: 17px;margin-right: 2px;border: thin #777777 solid;border-width: 1px;background-color: #d9d8d8;}
 .submitworldsay { font-size: 11px; font-weight: bold; color: #000000; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-color: #d9d8d8; }
 .submitgroup {font-size: 11px;font-weight: bold;color: #cd6836;padding-bottom: 2px;width: 80px;height: 17px;margin-right: 2px;border: thin #777777 solid;border-width: 1px;background-color: #d9d8d8;}
-.submitwhisper {font-size: 11px;font-weight: bold;color: #73a573;padding-bottom: 2px;width: 88px;height: 17px;margin-right: 2px;border: thin #4d4d4d solid;border-width: 1px;background-color: #2B2A2A;}  /* Whisper is darker */
+.submitwhisper {font-size: 11px;font-weight: bold;color: #73a573;padding-bottom: 2px;width: 88px;height: 17px;margin-right: 2px;border: thin #4d4d4d solid;border-width: 1px;background-color: #4a4848;}  /* Whisper is darker */
 .submitglobalchat { font-size: 11px; font-weight: bold; color: #952cf9; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-color: #d9d8d8; }
 .submitmod { font-size: 11px; font-weight: bold; color: black; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-color: #d9d8d8; }
 input[value="Moderator-Chat"] { font-size: 11px; font-weight: bold; color: black; width: 110px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-color: #d9d8d8;}
