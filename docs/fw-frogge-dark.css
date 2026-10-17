@@ -113,7 +113,7 @@ select { font-size: 11px; background-color: lightgrey; }
 .chattext table td { border: 1px solid #888; background-color: #3d3d3d; }
 p.worldsay tr[bgcolor="#99EE99"] td { width: 100%; background-color: #45c945; color: black; }
 p.worldsay tr[bgcolor="#99EE99"] a { color: #033875; }
-p.worldsay tr[bgcolor="#C1CEF9"] td {width: 100%;color: black;background-color: #5272d0;}
+p.worldsay tr[bgcolor="#C1CEF9"] td {width: 100%;color: black;background-color: #5272d0; background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red)!important; color: transparent!important; -webkit-background-clip: text;}
 p.worldsay tr[bgcolor="#C1CEF9"] a {color: #8f1b1b;}
 p.worldsay tr[bgcolor="#FFAEA1"] td { width: 100%; color: black; background-color: #898b91; }
 p.worldsay tr[bgcolor="#EEEE99"] td { color: black; }
